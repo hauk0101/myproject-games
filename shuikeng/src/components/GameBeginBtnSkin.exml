@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameBeginBtnSkin" width="480"  xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  height="800">
+	<e:Panel id="btn_group" x="0" y="-176" height="0" width="0" enabled="true">
+		<e:Button id="game_begin_btn" x="85" y="540" width="300" height="270" enabled="true">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="camera_png"/>
+					<e:Label id="labelDisplay0" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="enter_text_png" x="113" y="707" width="130" height="80" touchEnabled="false"/>
+	</e:Panel>
+	<e:Group id="camera_effect" height="0" x="0" y="-142">
+		<e:Image id="camera_effect1" source="camera_effect1_png" x="17" y="661" width="55" height="46"/>
+		<e:Image id="camera_effect2" source="camera_effect2_png" x="399" y="703" width="55" height="46"/>
+	</e:Group>
+	<e:Group id="hand_group" height="0" width="0" x="0" y="-144">
+		<e:Button id="game_begin_hand_btn" x="148" y="700" width="150" height="250">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="hand_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

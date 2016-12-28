@@ -1,0 +1,252 @@
+body,div,p,span,img,ul,li,ol,video,audio,canvas{ margin:0; padding:0;}
+html,body{height: 100%;width: 100%;overflow: hidden;}
+
+.main{
+    width:100%;
+    height:100%;
+    position: absolute;
+}
+.new_game{
+    left:0;
+    right:0;
+    width: 100%;
+    height:100%;
+    background:url("http://static.twttmob.com/h5/ciweixiaozi2/images/bg1.jpg") no-repeat center center;
+    -webkit-background-size:100% 100% ;
+    background-size: 100% 100%;
+
+}
+.game_tips{
+    width:100%;
+    top:20px
+}
+#logo img{
+    width:20%;
+    left:10px;
+    position: absolute;
+}
+#title img{
+    width: 50%;
+    left:50%;
+    margin-left: -25%;
+    margin-top: 3%;
+    position:absolute;
+}
+#name img{
+    width:50%;
+    position:absolute;
+    margin-left: -25%;
+    left:50%;
+    top:50px;
+}
+
+.start_btn img{
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    margin-left: -25%;
+    bottom:8%;
+}
+
+#room{
+    width: 100%;
+    height:100%;
+    background:url("http://static.twttmob.com/h5/ciweixiaozi2/images/bg2.jpg") no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+#room header{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #FFA1A1;
+    margin-top: 38%;
+}
+#room header .lv{
+    position:absolute;
+    left:0;
+    margin-left:5%;
+}
+#room .text2{
+    position:absolute;
+    right:0;
+    margin-right: 5%;
+
+}
+#room .text1{
+    font-style:normal;
+    font-family: Microsoft YaHei;
+    color:yellow;
+    font-size:20px;
+    font-weight:bold;
+}
+#room header .time{
+    font-size:20px;
+    font-weight:700;
+    padding:0 10px;
+
+}
+#room header .time.danger{
+    color:red;
+}
+#gameover_tip img{
+    position: absolute;
+    width: 80%;
+    margin-top: 50%;
+    left: 50%;
+    margin-left: -40%;
+}
+#box{
+    position:absolute;
+    right:0;
+    left:0;
+    margin:auto;
+    background-color:#000000;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 50%;
+}
+#box span{
+    background-color: white;
+    display:block;
+    float:left;
+    border-radius:10px;
+    cursor:pointer;
+    border:8px solid #ddd;
+    position:relative;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+#box span em{
+    height:30%;
+    width: 30%;
+    background-color:#fff;
+    border-radius: 50%;
+    display: block;
+    position:absolute;
+    left:0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+#box.lv2 span{
+    width:50%;
+    height:50%;
+}
+#box.lv3 span{
+    width:33.33%;
+    height:33.33%;
+}
+#box.lv4 span{width:25%;height:25%}
+#box.lv5 span{width:20%;height:20%;border-width:3px}
+#box.lv6 span{width:16.666%;height:16.666%;border-width:3px}
+#box.lv7 span{width:14.28%;height:14.28%;border-width:3px}
+#box.lv8 span{width:12.5%;height:12.5%;border-width:3px}
+#box.lv9 span{width:11.111%;height:11.111%;border-width:3px}
+#box span img{width:100%}
+
+#dialog{
+    position: absolute;
+    left:0;
+    right:0;
+    width: 100%;
+    height:100%;
+    background:url("http://static.twttmob.com/h5/ciweixiaozi2/images/bg3.jpg") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#score_img img{
+    width:70%;
+    position: absolute;
+    margin-top: 52%;
+    left:15%;
+}
+
+#score{
+    font-style:normal;
+    font-family: Microsoft YaHei;
+    color: #FFFFFF;
+    font-size:30px;
+    font-weight:bold;
+    position: absolute;
+    margin-top: 62%;
+    left:38% ;
+}
+#share_btn img{
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    margin-left: -25%;
+    bottom: 8%;
+}
+
+#share_arrow img{
+    width: 30%;
+    position: absolute;
+    left:50%;
+    top: 5%;
+    margin-left: 20%;
+}
+#account_img img{
+    width: 60%;
+    position:absolute;
+    left:50%;
+    bottom: 5px;
+    margin-left: -35%;
+}
+
+#music_btn{
+    width:50px;
+    height:50px;
+    position: absolute;
+    right:10px;
+    top: 10px;
+    z-index: 200;
+    background:url("http://static.twttmob.com/h5/ciweixiaozi2/images/stop_sound.png") no-repeat center center;
+    background-size:50px 50px;
+}
+
+#music_btn.cur{
+    -webkit-animation: musicRotate 1.5s infinite linear;
+    -o-animation: musicRotate 1.5s infinite linear;
+    animation: musicRotate 1.5s infinite linear;
+    z-index: 200;
+    background:url("http://static.twttmob.com/h5/ciweixiaozi2/images/play_sound.png") no-repeat center center;
+    background-size:50px 50px;
+}
+
+@keyframes musicRotate {
+    from{
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        transform: rotate(0);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes musicRotate{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(360deg);}
+}
+
+
+
+
+

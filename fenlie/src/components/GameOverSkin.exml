@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameOverSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui">
+	<e:Image width="440" height="640" y="100" source="game_over_bg_jpg" x="20"/>
+	<e:Group height="0" width="0" y="-40" horizontalCenter="0">
+		<e:Label text="蛤？你的分裂数值为             分！" fontFamily="微软雅黑" size="24" bold="true" y="224" horizontalCenter="0"/>
+		<e:Label id="game_total_tip" y="289" text="啧啧~你弱爆了喂~" fontFamily="微软雅黑" bold="true" size="24" horizontalCenter="0" textColor="0x104CD8"/>
+		<e:Label text="还想更华丽的分裂吗？" horizontalCenter="0" y="340" fontFamily="微软雅黑" size="20" textColor="0x00FFF6"/>
+		<e:Label y="390" textColor="0x00FFF6" text="快来疯子的“e世界”总部抓我啊，" fontFamily="微软雅黑" horizontalCenter="0" size="20" x="10"/>
+		<e:Label y="440" textColor="0x00FFF6" text="3天后，新的分裂游戏等你来磨！" fontFamily="微软雅黑" horizontalCenter="0" size="20" x="20"/>
+	</e:Group>
+	<e:Group id="game_total_group" height="0" width="0" x="5" y="-40">
+		<e:Image source="total_0_png" y="205" x="277" width="26" height="52" id="num0"/>
+		<e:Image id="num1" source="total_3_png" x="294" y="205" width="26" height="52"/>
+		<e:Image id="num2" source="total_0_png" x="308" y="205" width="26" height="52"/>
+	</e:Group>
+	<e:Group height="0" width="0" x="0" y="650">
+		<e:Image id="game_tower" source="game_tower_png" width="220" height="354" horizontalCenter="239" y="-177"/>
+		<e:Image id="lighting_left" source="lighting_left_png" width="140" height="77" x="12" y="-32"/>
+		<e:Image id="lighting_right" y="-174" x="305" width="155" height="90" source="lighting_right_png"/>
+		<e:Image id="dianbo_1" source="dianbo_png" x="246" y="-198" width="26" height="30"/>
+		<e:Image id="dianbo_2" source="dianbo_png" width="26" y="-204" height="30" x="248"/>
+		<e:Image id="dianbo_3" source="dianbo_png" width="26" y="-208" height="30" x="250"/>
+	</e:Group>
+</e:Skin>

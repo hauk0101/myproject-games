@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameLoadingSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="loadingBar" x="71" width="320" source="loading_png" verticalCenter="0.5"/>
+	<e:Image id="loadingBG" source="loadingBG_png" width="350" height="36" horizontalCenter="0" y="381"/>
+	<e:Label id="loadingText" text="100%" x="333" y="355" fontFamily="Consolas雅黑" size="25"/>
+</e:Skin>

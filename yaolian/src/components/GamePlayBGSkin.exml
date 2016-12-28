@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GamePlayBGSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="group_game_bg" height="0" width="5" horizontalCenter="-240" verticalCenter="-400">
+		<e:Image y="100" width="445" height="645" source="black_bg_png" x="20"/>
+	</e:Group>
+	<e:Group id="group_rember_time" height="0" width="0" x="0" y="0">
+		<e:Image source="count_bg_png" x="165" y="280" width="150" height="150"/>
+		<e:Image id="rember_count_num" x="214" y="315" width="42" height="84" source="count_num_5_png"/>
+	</e:Group>
+	<e:Group id="btn_start" y="415" horizontalCenter="0">
+		<e:Button id="btn_start_small" width="150" height="75" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_start_small_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_start_big" width="150" height="75" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_start_big_png"/>
+					<e:Label id="labelDisplay0" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Image width="105" y="105" height="123" x="25" source="game_element_3_png" visible="false"/>
+	<e:Image source="game_element_back_png" width="105" y="233" height="123" x="25" visible="false"/>
+	<e:Image source="game_element_1_png" width="105" y="105" height="123" x="135" visible="false"/>
+	<e:Image source="game_element_back_png" width="105" y="361" height="123" x="25" visible="false"/>
+	<e:Image source="game_element_back_png" width="105" y="617" height="123" x="25" visible="false"/>
+	<e:Image source="game_element_back_png" width="105" y="489" height="123" x="25" visible="false"/>
+	<e:Image source="game_element_1_png" width="105" y="105" height="123" x="245" visible="false"/>
+	<e:Image source="game_element_1_png" width="105" y="105" height="123" x="355" visible="false"/>
+	<e:Image source="game_element_4_png" x="135" y="233" width="105" height="123" visible="false"/>
+	<e:Image source="game_element_9_png" x="355" y="233" width="105" height="123" visible="false"/>
+	<e:Image source="game_element_8_png" x="245" y="233" width="105" height="123" visible="false"/>
+</e:Skin>

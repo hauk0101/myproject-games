@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameLoadingSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="loadingText" text="100%" fontFamily="Consolas雅黑" size="25" y="360" horizontalCenter="0"/>
+	<e:Image source="eyes_1_png" x="175" y="386" width="120" height="40"/>
+	<e:Image id="eyes_right" source="eyes_2_png" x="177" y="387" width="120" height="40"/>
+	<e:Image id="eyes_left" source="eyes_2_png" y="387" x="158" width="120" height="40" visible="false"/>
+</e:Skin>

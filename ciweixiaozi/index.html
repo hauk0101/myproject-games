@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html" charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no,target-densityDpi=device-dpi">
+    <meta http-equiv="cache-control=" content="no-cache">
+    <title>刺猬小子测IQ</title>
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="libs/libs.min.js"></script>
+    <script src="libs/underscore.js"></script>
+
+</head>
+
+<body>
+
+    <div class="main" >
+        <div class="page hide new_game" id="index">
+            <div class="game_tips">
+                <div id="logo">
+                    <img src=" images/logo.png">
+                </div>
+                <div id="title">
+                    <img src=" images/title.png">
+                </div>
+                <div id="name">
+                    <img src=" images/name.png">
+                </div>
+            </div>
+            <div class="start_btn btn-play" id="startBtn">
+                <img class="startBtn1"src=" images/start02.png">
+            </div>
+        </div>
+        <div class="page hide" id="room">
+            <header>
+                <span class="lv text1">
+                    积木数：
+                    <em class="text1">1</em>
+                </span>
+                <span class="text2 text1">
+                剩余时间：
+                    <em class="time">30</em>
+                </span>
+            </header>
+            <div id="box" class="lv1">
+            </div>
+            <div id="gameover_tip">
+                <img src=" images/ending.png">
+            </div>
+        </div>
+        <div class="page hide" id="dialog">
+            <div class="inner">
+                <div class="content gameover" id="score_img">
+                    <img src=" images/gongxinipng.png">
+                   <em id="score">99</em>
+                </div>
+            </div>
+            <div id="share_btn">
+                <img src=" images/share02.png">
+            </div>
+            <div id="public_account">
+                <div id="account_img">
+                    <img src=" images/erweima01.png">
+                </div>
+                <div id="share_arrow">
+                    <img src=" images/jiantou.png">
+                </div>
+            </div>
+        </div>
+        <div id="music_btn" class="cur">
+            <audio src="audio/bg_sound.mp3" hidden="hidden" class="music" loop="loop"></audio>
+            <audio src="audio/btn_sound.mp3" hidden="hidden" id="btn_sound"></audio>
+        </div>
+
+    <script type="text/javascript" src=" js/weixin.js"></script>
+    <script src=" js/game.js"></script>
+    <script src=" js/app.js"></script>
+    <script src=" js/pic.js"></script>
+    <script type="text/javascript">
+        ///如果有参数则不显示开始按钮
+        var href = window.location.href;
+        var hasCode = href.indexOf("?");
+        if(hasCode != -1)
+        {
+            $("#startBtn").hide();
+        }
+        ///
+    </script>
+</body>
+</html>

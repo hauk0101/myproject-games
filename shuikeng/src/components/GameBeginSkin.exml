@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameBeginSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="black_bg" source="black_bg_png" x="0" y="0" width="480" height="800"/>
+	<e:Image id="water_effect_bg" source="shuihua_bg_png" x="0" y="0" width="480" height="800"/>
+	<e:Image id="corner_bg" source="corner_bg_png" x="0" y="0" width="480" height="800"/>
+	<e:Image id="game_begin_stars" source="stars_png" y="0" width="480" height="800" alpha="1" horizontalCenter="0"/>
+	<e:Group height="0" width="0" y="-70" horizontalCenter="0">
+		<e:Label id="game_begin_text0" y="220" textColor="0x00FFF6" text="水坑，水坑，" fontFamily="微软雅黑" size="28" x="-74"/>
+		<e:Label y="270" textColor="0x00FFF6" text="告诉我谁是世界上最分裂的人？" fontFamily="微软雅黑" size="28" id="game_begin_text1" x="-177"/>
+		<e:Label id="game_begin_text2" y="320" textColor="0x00FFF6" fontFamily="微软雅黑" size="28" text="呵呵呵" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameLoadingPageSkin" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="loading_bg_jpg" x="0" y="0" width="640" height="1008" visible="false"/>
+	<e:Image source="loading_pic_png" y="448" width="370" horizontalCenter="0" visible="false"/>
+	<e:Image id="loading_progress" source="loading_progress_png" y="448" width="360" x="135"/>
+	<e:Label id="loading_text" text="100%" y="427" height="30" fontFamily="微软雅黑" horizontalCenter="0.5" size="24"/>
+</e:Skin>

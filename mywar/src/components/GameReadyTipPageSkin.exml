@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameReadyTipPageSkin" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="gray_bg_png" x="0" y="0" width="640" height="960" alpha="0.8"/>
+	<e:Image id="tip_ready" source="tip_ready_png" width="186" height="110" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="tip_go" source="tip_go_png" width="186" height="110" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

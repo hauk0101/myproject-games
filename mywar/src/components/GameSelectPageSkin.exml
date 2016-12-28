@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameSelectPageSkin" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="game_bg_jpg" x="0" y="0" height="960"/>
+	<e:Image source="gray_bg_png" x="0" y="0" width="640" height="960"/>
+	<e:Image source="select_title_png" y="100" horizontalCenter="0"/>
+	<e:Group id="select_bg" height="0" width="0" x="0" y="-36">
+		<e:Image source="black_bg_png" x="73" y="201" width="470" height="530"/>
+	</e:Group>
+	<e:Image source="game_rules_png" y="749" horizontalCenter="0.5"/>
+</e:Skin>

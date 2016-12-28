@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GamePlayPageSkin" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="game_bg_jpg" x="0" y="0"/>
+	<e:Image source="black_bg_png" x="0" y="0" width="640" height="960" alpha="0.6"/>
+	<e:Image source="rules_title_png" y="71" width="461" height="46" horizontalCenter="0.5"/>
+	<e:Image source="countdown_tip_png" y="130" x="230"/>
+	<e:Group id="group_time_count" height="0" width="0" y="122" x="350">
+		<e:Image source="time_num_0_png" y="0" x="0" id="time_num_0" width="32" height="40"/>
+		<e:Image id="time_num_1" source="time_num_0_png" x="25" y="0" width="32" height="40"/>
+		<e:Image id="time_num_s" y="5" x="50" source="time_num_s_png" width="32" height="40"/>
+	</e:Group>
+	<e:Group id="group_play_bg" height="0" width="0" y="0" x="10">
+		<e:Image source="playgame_bg_png" width="540" height="675" scale9Grid="46,44,519,585" y="200" x="40"/>
+		<e:Image id="game_pic" source="game_pic1_jpg" width="490" height="630" x="65" y="221" visible="false"/>
+	</e:Group>
+</e:Skin>

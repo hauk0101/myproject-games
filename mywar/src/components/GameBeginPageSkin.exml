@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameBeginPageSkin" width="640" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_bg" source="game_bg_jpg" x="0" y="0" width="640" height="1280"/>
+	<e:Image id="img_title" y="175" source="page1_title_png" x="132"/>
+	<e:Image id="img_text1" source="page1_text1_png" y="290" x="174"/>
+	<e:Image id="img_text2" source="page1_text2_png" y="350" x="101"/>
+	<e:Image id="img_text3" source="page1_text3_png" y="410" horizontalCenter="0"/>
+	<e:Image id="img_text4" source="page1_text4_png" y="470" horizontalCenter="0"/>
+	<e:Image id="img_text5" source="page1_text5_png" y="530" horizontalCenter="-4"/>
+	<e:Button id="btn_enter_big" y="730" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="enter_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_enter_small" y="735" width="230" height="70" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="enter_png"/>
+				<e:Label id="labelDisplay0" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

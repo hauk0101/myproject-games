@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameOverSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="black_bg" source="black_bg_png" x="20" y="100" width="440" height="640"/>
+	<e:Image id="stars_bg" source="stars_png" x="10" y="100" width="460" height="660"/>
+	<e:Group id="label" height="0" width="0" y="-44" horizontalCenter="0">
+		<e:Label text="   你的分裂数值为               分！" fontFamily="微软雅黑" size="20" bold="true" y="233" x="-136"/>
+		<e:Label id="game_total_tip" y="271" text="啧啧~你弱爆了喂~" fontFamily="微软雅黑" bold="true" size="20" horizontalCenter="0" textColor="0x104CD8"/>
+		<e:Label text="世界上的神经鸟处处可见，" horizontalCenter="0" y="315" fontFamily="微软雅黑" size="18" textColor="0x00FFF6"/>
+		<e:Label y="345" textColor="0x00FFF6" horizontalCenter="0" fontFamily="微软雅黑" size="18" text="但是这样的分裂狂少之极恐。" x="10"/>
+		<e:Label y="375" textColor="0x00FFF6" text="喂~先别擦你的屎玻璃了，" fontFamily="微软雅黑" size="18" horizontalCenter="0" x="20"/>
+		<e:Label y="405" text="戳戳鸟屁" fontFamily="微软雅黑" horizontalCenter="0" size="22" x="10" textColor="0xFFFF00" bold="true"/>
+		<e:Label y="440" textColor="0xFFFF00" text="跟我一起分裂吧！" fontFamily="微软雅黑" bold="true" size="22" horizontalCenter="0"/>
+		<e:Label y="475" textColor="0x00FFF6" text="戳戳周围的小鸟屁" fontFamily="微软雅黑" horizontalCenter="0" size="20" x="20"/>
+		<e:Label y="505" textColor="0x00FFF6" text="去其他的游戏裂一裂！" fontFamily="微软雅黑" size="20" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group id="game_total_group" height="0" width="0" x="5" y="-45">
+		<e:Image source="total_0_png" y="205" x="262" width="26" height="52" id="num0"/>
+		<e:Image id="num1" source="total_3_png" x="288" y="205" width="26" height="52"/>
+		<e:Image id="num2" source="total_0_png" x="315" y="205" width="26" height="52"/>
+	</e:Group>
+	<e:Group id="chuo_btn" height="0" width="0" x="0" y="650">
+		<e:Image id="gameover_btn" width="300" height="280" x="86" y="-127" source="pigu_btn_png"/>
+		<e:Image id="chuo_big_btn" source="chuo_big_btn_png" x="195" y="-70" width="92" height="97"/>
+		<e:Image id="chuo_small_btn" source="chuo_small_btn_png" y="-60" x="205" width="74" height="78" visible="false"/>
+	</e:Group>
+	<e:Group id="group_games" height="0" width="0" x="0" y="0">
+		<e:Image id="game1_btn" source="game1_btn_png" x="57" y="598" width="118" height="100"/>
+		<e:Image id="game2_btn" source="game2_btn_png" x="266" y="672" width="99" height="97"/>
+		<e:Image id="game3_btn" source="game3_btn_png" x="330" y="456" width="123" height="100"/>
+	</e:Group>
+	<e:Group id="group_shi" height="0" width="0" x="0" y="0">
+		<e:Image source="end_shi_2_png" x="376" y="301" width="80" height="95"/>
+		<e:Image source="end_shi_3_png" x="46" y="481" width="112" height="100"/>
+		<e:Image source="end_shi_1_png" x="32" y="135" width="80" height="142"/>
+	</e:Group>
+	<e:Image source="corner_bg_png" x="10" y="100" width="460" height="650" touchEnabled="false"/>
+</e:Skin>

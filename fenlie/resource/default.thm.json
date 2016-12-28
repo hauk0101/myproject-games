@@ -1,0 +1,16 @@
+{
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    "src/components/GameBeginBtnSkin.exml",
+    "src/components/GameBeginSkin.exml",
+    "src/components/GameElementSkin.exml",
+    "src/components/GameLoadingSkin.exml",
+    "src/components/GameOverSkin.exml",
+    "src/components/GamePlayBGSkin.exml",
+    "src/components/GameRestartPageSkin.exml",
+    "src/components/GameSoundBGSkin.exml",
+    "src/components/GameTimeSkin.exml",
+    "src/components/GameTipSkin.exml"
+  ],
+  "skins": {}
+}

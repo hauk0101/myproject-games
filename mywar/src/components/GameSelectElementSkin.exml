@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameSelectElementSkin" width="230" height="260" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="select_bg" source="select_border_png" width="230" y="0" height="260" x="0"/>
+	<e:Image id="select_img" y="5" x="5" width="220" height="250" source="game_pic1_jpg"/>
+</e:Skin>
