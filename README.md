@@ -14,37 +14,37 @@
     </tr>
     <tr>
         <th>项目 1</th>
-	    <th>Fenlie</th>
+	    <th>fenlie</th>
         <th>《分裂》小游戏</th>
         <th>Egret + Egret Wing + Html</th>
     </tr>
 	<tr>
         <th>项目 2</th>
-	    <th>Ciweixiaozi</th>
+	    <th>ciweixiaozi</th>
         <th>《刺猬小子》小游戏</th>
         <th>jQuery</th>
     </tr>
 	<tr>
         <th>项目 3</th>
-	    <th>Woca</th>
+	    <th>woca</th>
         <th>《我擦》小游戏</th>
         <th>Egret + Egret Wing</th>
     </tr>
 	<tr>
         <th>项目 4</th>
-	    <th>Yaolian</th>
+	    <th>yaolian</th>
         <th>《要脸》小游戏</th>
         <th>Egret + Egret Wing</th>
     </tr>
 	<tr>
         <th>项目 5</th>
-	    <th>Shuikeng</th>
+	    <th>shuikeng</th>
         <th>《水坑》小游戏</th>
         <th>Egret + Egret Wing</th>
     </tr>
 	<tr>
         <th>项目 6</th>
-	    <th>MyWar</th>
+	    <th>mywar</th>
         <th>《我的战争》小游戏</th>
         <th>Egret + Egret Wing</th>
     </tr>
@@ -52,7 +52,7 @@
  
 ##项目简介
 >项目1
->Fenlie
+>fenlie
 
 ###项目名称：《分裂》小游戏
 ###项目简介：
@@ -67,7 +67,7 @@
 _本项目可在Egret Wing中导入工程后直接使用并查看源码，同时本项目需放置服务器端，访问对应的index.html可查看效果，本地浏览器无法查看效果。_
 
 >项目2
->Ciweixiaozi
+>ciweixiaozi
 
 ###项目名称：《刺猬小子》小游戏
 ###项目简介：
@@ -79,7 +79,7 @@ _本项目可在Egret Wing中导入工程后直接使用并查看源码，同时
 * 本项目使我对Javascript的对象封装有了新的认识。同时也是本人第一款纯JS语言编写的小游戏。算是对前端较规范学习的一个好的开端。
 
 >项目3
->Woca
+>woca
 
 ###项目名称：《我擦》小游戏
 ###项目简介：
@@ -91,7 +91,7 @@ _本项目可在Egret Wing中导入工程后直接使用并查看源码，同时
 * 本项目使我理解并实现了“打地鼠”为原型的小游戏的逻辑。
 
 >项目4
->Yaolian
+>yaolian
 
 ###项目名称：《要脸》小游戏
 ###项目简介：
@@ -103,7 +103,7 @@ _本项目可在Egret Wing中导入工程后直接使用并查看源码，同时
 * 本项目还巩固了我在Egret项目中，使用相关的Tween动画API和计时器方法。
 
 >项目5
->Shuikeng
+>shuikeng
 
 ###项目名称：《水坑》小游戏
 ###项目简介：
@@ -114,7 +114,7 @@ _本项目可在Egret Wing中导入工程后直接使用并查看源码，同时
 * 本项目主要巩固了Egret相关小游戏的制作流程，技术点主要在于如何随机元素的出现位置，以及其运动的随机方向和随机速度。
 
 >项目6
->MyWar
+>mywar
 
 ###项目名称：《我的战争》小游戏
 ###项目简介：
