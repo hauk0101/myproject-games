@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameBackgroundSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg1" source="game_bg_jpg" x="0" y="0" width="642" height="1060"/>
+	<e:Image id="bg2" source="game_bg_jpg" y="-1060" x="0" height="1060" width="642"/>
+	<e:Image id="maskbg" source="pop_black_png" x="0" y="0" width="640" height="1008" visible="false"/>
+</e:Skin>

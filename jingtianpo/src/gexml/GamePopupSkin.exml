@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GamePopupSkin" width="535" height="350" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="pop_bg_png" x="0" y="0"/>
+	<e:Group height="74" width="297" y="56" horizontalCenter="0">
+		<e:Label id="txt_score" text="您的最终得分为 99 分" horizontalCenter="0" verticalCenter="0" fontFamily="微软雅黑" textColor="0xFF750B" bold="true" size="34"/>
+		<e:Label text="恭喜获得评级" fontFamily="微软雅黑" bold="true" id="txt_score0" x="26" y="93" textColor="0xFFFFFF"/>
+	</e:Group>
+	<e:Group height="70" width="45" x="345" y="121">
+		<e:Image id="sss1" source="pop_s_png" x="0" y="0" rotation="0"/>
+		<e:Image id="sss2" source="pop_s_png" y="0" rotation="0" x="30"/>
+		<e:Image id="sss3" source="pop_s_png" y="0" rotation="0" x="62"/>
+	</e:Group>
+	<e:Image id="btn_turn" source="pop_btn_png" y="208" horizontalCenter="0"/>
+</e:Skin>

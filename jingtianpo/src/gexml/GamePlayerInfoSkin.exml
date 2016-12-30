@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GamePlayerInfoSkin" width="640" height="160" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="name_bg_png" x="0" y="0" width="640" height="160"/>
+	<e:Image id="manIcon" source="man_lqy_png" x="50" y="14"/>
+	<e:Image id="manName" x="189" y="68" source="name_chejiawei_png"/>
+	<e:Image source="name_majin_png" y="67" x="213" id="manName0"/>
+	<e:Image x="363" y="105" source="blood_bg_png"/>
+	<e:Group id="group_blood" height="15" width="130" x="363" y="104">
+		<e:Image source="blood_png" y="4" x="10" id="blood0"/>
+		<e:Image id="blood1" source="blood_png" x="32" y="4"/>
+		<e:Image source="blood_png" y="4" x="54" id="blood2"/>
+		<e:Image source="blood_png" y="4" id="blood3" x="76"/>
+		<e:Image source="blood_png" y="4" x="98" id="blood4"/>
+	</e:Group>
+	<e:Image source="life_words_png" x="361" y="77" width="68" height="36" scale9Grid="8,4,55,28"/>
+</e:Skin>

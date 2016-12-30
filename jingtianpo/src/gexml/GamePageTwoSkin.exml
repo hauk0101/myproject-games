@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GamePageTwoSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="page2_bg_jpg" x="0" y="0" width="640" height="1008"/>
+	<e:Image id="img_xie" source="page2_xie_png" y="113" horizontalCenter="0"/>
+	<e:Image id="img_liu" source="page2_liu_png" y="459" horizontalCenter="0"/>
+	<e:Image id="btn_select0" source="btn_select_png" x="540" y="197"/>
+	<e:Image id="btn_select1" source="btn_select_png" y="526" x="540"/>
+	<e:Image id="btn_start_big" source="btn_go_png" y="856" horizontalCenter="0"/>
+	<e:Image id="btn_start_small" source="btn_go_png" y="864" horizontalCenter="0" x="10" width="140" height="50"/>
+</e:Skin>

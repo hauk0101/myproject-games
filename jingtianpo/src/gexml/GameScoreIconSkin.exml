@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameScoreIconSkin" width="150" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="tenNum" source="score_0_png" x="5" y="5" width="55" height="70"/>
+	<e:Image id="singleNum" x="59" y="5" width="55" height="70" source="score_0_png"/>
+	<e:Image id="word" x="103" y="20" width="55" height="70" source="score_fen_png"/>
+</e:Skin>

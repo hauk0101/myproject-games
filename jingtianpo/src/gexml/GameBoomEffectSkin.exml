@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameBoomEffectSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui">
+	<e:Group height="0" width="0" y="0" x="320">
+		<e:Image source="loading_pic_jpg" width="374" height="383" id="img_boom" horizontalCenter="7" verticalCenter="443.5"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameBulletSkin" width="80" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="myBullet" source="my_bullet_png" x="4" y="0" width="70" height="79"/>
+	<e:Image id="enemyBullet" source="enemy_bullet_png" width="67" height="62" y="9" x="6"/>
+</e:Skin>

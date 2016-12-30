@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameMoveClipSkin" width="64	" height="64" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:MovieClipGroup id="movieClip" height="64" width="64" x="0" y="0" source="enemyRole"/>
+</e:Skin>

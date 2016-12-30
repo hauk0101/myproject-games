@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GamePageThreeSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="page3_bg_jpg" x="0" y="0"/>
+	<e:Image id="img_txt" source="page3_txt_png" x="0" y="50"/>
+	<e:Image id="img_xie" y="224" source="page1_xie_png" x="162"/>
+	<e:Image id="img_liu" source="page1_liu_png" x="133" y="187"/>
+	<e:Group id="group_restart" height="63" width="145" x="59" y="885">
+		<e:Image id="btn_bg" source="btn_bg_png" width="147" height="62" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label text="再玩一次" fontFamily="微软雅黑" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Group id="group_turn_big" y="885" width="180" height="63" x="428" visible="false">
+		<e:Image source="btn_bg_png" width="180" height="62" horizontalCenter="0" verticalCenter="0" id="btn_bg0"/>
+		<e:Label horizontalCenter="0" verticalCenter="0" text="引爆惊天破" fontFamily="微软雅黑" textColor="0xE76A0C"/>
+	</e:Group>
+	<e:Group id="group_turn_small" y="893" width="180" height="50" x="428" visible="false">
+		<e:Image source="btn_bg_png" horizontalCenter="0" verticalCenter="0" width="160" height="50" id="btn_bg1"/>
+		<e:Label horizontalCenter="0" textColor="0xE76A0C" verticalCenter="0" text="引爆惊天破" fontFamily="微软雅黑" size="26"/>
+	</e:Group>
+	<e:Group id="group_turn_0" y="821" width="180" height="60" x="438">
+		<e:Image source="btn_bg_png" width="180" height="60" horizontalCenter="0" verticalCenter="0" id="btn_bg3" scale9Grid="17,17,133,48"/>
+		<e:Label textColor="0xE76A0C" size="26" text="糯米抢票9.9" fontFamily="微软雅黑" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Group id="group_turn_1" y="909" width="180" height="60" x="438">
+		<e:Image source="btn_bg_png" horizontalCenter="0" verticalCenter="0" width="180" height="60" id="btn_bg2" scale9Grid="15,17,134,45"/>
+		<e:Label textColor="0xE76A0C" verticalCenter="0" text="猫眼抢票9.9" fontFamily="微软雅黑" horizontalCenter="0" size="26"/>
+	</e:Group>
+</e:Skin>
